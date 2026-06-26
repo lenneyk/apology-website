@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To the Most Important Person in My Life</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="petal-canvas"></canvas>
+
+<div class="grain"></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-aura"></div>
+  <div class="seal" aria-hidden="true">
+    <svg viewBox="0 0 100 100" width="56" height="56">
+      <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <path d="M50 32 C 38 18, 18 28, 22 46 C 25 62, 42 70, 50 80 C 58 70, 75 62, 78 46 C 82 28, 62 18, 50 32 Z"
+            fill="currentColor" opacity="0.9"/>
+    </svg>
+  </div>
+
+  <p class="hero-eyebrow">a letter, written slowly</p>
+  <h1 class="hero-title">To the Most Important<br>Person in My Life</h1>
+  <p class="hero-subtitle">
+    This page was made with love, and with the kind of sincerity that doesn't
+    fit neatly into a text message. Every word here, I mean.
+  </p>
+
+  <button class="scroll-cue" id="scrollCue" aria-label="Continue reading">
+    <span>keep reading</span>
+    <svg width="14" height="22" viewBox="0 0 14 22" fill="none">
+      <path d="M7 1V21M7 21L1 15M7 21L13 15" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+</section>
+
+<main>
+
+  <!-- ============ MUSIC ============ -->
+  <section class="section music-section fade-up">
+    <p class="section-eyebrow">a song for you</p>
+    <h2 class="section-title">Something to Listen To</h2>
+    <div class="glass-card music-card">
+      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2vgUijXOTRMnWXDtvgMp2b?utm_source=generator&si=2e28d563a8ea4f65" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <span></span><svg width="18" height="18" viewBox="0 0 18 18"><path d="M9 16C9 16 1.5 11.6 1.5 6.4C1.5 3.6 3.6 1.5 6.2 1.5C7.7 1.5 9 2.3 9 2.3C9 2.3 10.3 1.5 11.8 1.5C14.4 1.5 16.5 3.6 16.5 6.4C16.5 11.6 9 16 9 16Z" fill="currentColor"/></svg><span></span>
+  </div>
+
+  <!-- ============ APOLOGY ============ -->
+  <section class="section apology-section fade-up">
+    <p class="section-eyebrow">what I need to say</p>
+    <h2 class="section-title">I'm Sorry</h2>
+
+    <div class="glass-card apology-card">
+      <p>
+        I haven't been who I should have been for you. There were moments you
+        needed me close, and I was distant — emotionally, physically, in the
+        ways that matter most. I let myself become out of reach, and I didn't
+        communicate the way I should have. I let things go unsaid that
+        deserved to be spoken, and let silence stand in where honesty
+        belonged.
+      </p>
+      <p>
+        I hurt someone I love deeply, and that is not a small thing to me.
+        I'm not writing this looking for excuses, because there aren't any
+        that matter more than the simple truth: I could have shown up better,
+        and I didn't. I take responsibility for that, fully and without
+        conditions.
+      </p>
+      <p>
+        I promise to work on being more present — not just in the big
+        moments, but in the ordinary, quiet ones too, because that's where
+        love actually lives. You deserve consistency. You deserve honesty.
+        You deserve patience, and a love that doesn't waver when things get
+        difficult. You deserve someone who chooses you on the easy days and
+        the hard ones alike.
+      </p>
+      <p>
+        So I'm asking, with everything I have, for another chance to be that
+        for you. And whatever you decide — I will respect it completely.
+        This is your choice to make, in your own time, and I won't make it
+        harder than it already is.
+      </p>
+      <p class="signoff">With love, always.</p>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <span></span><svg width="18" height="18" viewBox="0 0 18 18"><path d="M9 16C9 16 1.5 11.6 1.5 6.4C1.5 3.6 3.6 1.5 6.2 1.5C7.7 1.5 9 2.3 9 2.3C9 2.3 10.3 1.5 11.8 1.5C14.4 1.5 16.5 3.6 16.5 6.4C16.5 11.6 9 16 9 16Z" fill="currentColor"/></svg><span></span>
+  </div>
+
+  <!-- ============ REASONS I LOVE YOU ============ -->
+  <section class="section reasons-section fade-up">
+    <p class="section-eyebrow">a few of so many</p>
+    <h2 class="section-title">Reasons I Love You</h2>
+
+    <div class="reasons-grid">
+      <div class="reason-card fade-up">
+        <span class="reason-mark">01</span>
+        <h3>Your Kindness</h3>
+        <p>The way you treat people gently, even when the world hasn't been gentle with you first.</p>
+      </div>
+      <div class="reason-card fade-up">
+        <span class="reason-mark">02</span>
+        <h3>Your Smile</h3>
+        <p>It changes the temperature of a room. It's the first thing I look for, still.</p>
+      </div>
+      <div class="reason-card fade-up">
+        <span class="reason-mark">03</span>
+        <h3>The Peace You Bring</h3>
+        <p>Beside you, even the loudest days go quiet. You are the calm I didn't know I needed.</p>
+      </div>
+      <div class="reason-card fade-up">
+        <span class="reason-mark">04</span>
+        <h3>Your Strength</h3>
+        <p>You carry more than you let on, and you do it with a grace I deeply admire.</p>
+      </div>
+      <div class="reason-card fade-up">
+        <span class="reason-mark">05</span>
+        <h3>The Way You Support Me</h3>
+        <p>Quietly, steadily, without needing credit for it. I see it. I'm grateful for it.</p>
+      </div>
+      <div class="reason-card fade-up">
+        <span class="reason-mark">06</span>
+        <h3>Simply Being You</h3>
+        <p>No version of you I could imagine would ever be better than the one who's real.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <span></span><svg width="18" height="18" viewBox="0 0 18 18"><path d="M9 16C9 16 1.5 11.6 1.5 6.4C1.5 3.6 3.6 1.5 6.2 1.5C7.7 1.5 9 2.3 9 2.3C9 2.3 10.3 1.5 11.8 1.5C14.4 1.5 16.5 3.6 16.5 6.4C16.5 11.6 9 16 9 16Z" fill="currentColor"/></svg><span></span>
+  </div>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section gallery-section fade-up">
+    <p class="section-eyebrow">moments worth keeping</p>
+    <h2 class="section-title">Pieces of Us</h2>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- populated by script.js -->
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <span></span><svg width="18" height="18" viewBox="0 0 18 18"><path d="M9 16C9 16 1.5 11.6 1.5 6.4C1.5 3.6 3.6 1.5 6.2 1.5C7.7 1.5 9 2.3 9 2.3C9 2.3 10.3 1.5 11.8 1.5C14.4 1.5 16.5 3.6 16.5 6.4C16.5 11.6 9 16 9 16Z" fill="currentColor"/></svg><span></span>
+  </div>
+
+  <!-- ============ FORGIVENESS ============ -->
+  <section class="section forgive-section fade-up">
+    <p class="section-eyebrow">the only question that matters</p>
+    <h2 class="section-title">Will You Forgive Me?</h2>
+    <p class="forgive-sub">Take whatever time you need. There's no wrong answer here.</p>
+
+    <div class="forgive-buttons">
+      <button class="btn btn-accept" id="acceptBtn">I Accept Your Apology</button>
+      <button class="btn btn-wait" id="notYetBtn">Not Yet</button>
+    </div>
+
+    <div class="response-box" id="responseBox" role="status" aria-live="polite"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-seal" aria-hidden="true">
+    <svg viewBox="0 0 100 100" width="34" height="34">
+      <path d="M50 32 C 38 18, 18 28, 22 46 C 25 62, 42 70, 50 80 C 58 70, 75 62, 78 46 C 82 28, 62 18, 50 32 Z"
+            fill="currentColor" opacity="0.85"/>
+    </svg>
+  </div>
+  <p>Made with love, sincerity, and hope.</p>
+</footer>
+
+<div class="heart-burst-layer" id="heartBurstLayer" aria-hidden="true"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
