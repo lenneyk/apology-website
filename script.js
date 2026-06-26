@@ -50,7 +50,7 @@ photoFiles.forEach((file, index) => {
   item.style.transitionDelay = `${index * 80}ms`;
 
   const img = document.createElement('img');
-  img.src = `images/${file}`;
+  img.src = file;
   img.alt = `A photo we shared, memory ${index + 1}`;
   img.loading = 'lazy';
 
